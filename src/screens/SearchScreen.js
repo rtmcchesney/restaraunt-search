@@ -16,6 +16,7 @@ const SearchScreen = () => {
 
   return (
     <View style={{ flex: 1 }}>
+      <Text style={styles.text}>Search for Food</Text>
       <SearchBar
         term={term}
         onTermChange={setTerm}
@@ -33,6 +34,11 @@ const SearchScreen = () => {
   );
 };
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  text: {
+    marginLeft: 40,
+    fontSize: 48
+  }
+});
 
 export default SearchScreen;
