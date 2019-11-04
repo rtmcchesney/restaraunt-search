@@ -13,3 +13,5 @@ web-report/
 # macOS
 .DS_Store
 yelp.js
+AuthContext.js
+createDataContext.js
